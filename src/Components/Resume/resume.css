@@ -1,0 +1,222 @@
+@import url('/src/root-styles.css');
+
+.resume-container {
+    background-color: var(--darkish-blue); 
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.resume-summary,
+.resume-intro,
+.resume-work-experience,
+.resume-education,
+.resume-skills-certifications {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+
+/* Intro section */
+.resume-intro { 
+    display: flex; 
+    gap:20px;
+}
+.resume-intro h2 { 
+    font-size: 2.5em;
+}
+.resume-intro-summary {
+    color: var(--text-blue);
+    font-weight: 600;
+    font-size: 1.3em;
+    margin: 6px 0;
+}
+.resume-intro-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px solid var(--text-blue);
+    flex-grow: 0;
+    background-image: url('/public/profile-image.jpeg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.resume-intro-details {
+    flex-grow: 1;
+}
+.resume-intro-socials {
+    display: flex;
+    gap: 10px;
+}
+
+/* Summary */
+.resume-summary {
+    background-color: var(--dark-blue);
+    border-radius: 10px;
+    padding: 30px 40px;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.resume-summary h3 {
+    font-size: 1.5em;
+    margin-bottom: 12px;
+}
+
+/* Work Experience */
+.resume-experience {
+    background-color: var(--dark-blue);
+    border-left: 4px solid var(--text-blue);
+    border-radius: 10px;
+    min-height: 200px;
+    margin: 20px 0;
+    padding: 25px 30px;
+}
+.work-experience-company {
+    color: var(--text-blue);
+    font-weight: 500;
+    margin: 4px 0 4px;
+}
+.work-experience-dates {
+    color: var(--text-darker-gray);
+    font-weight: 400;
+    font-style: italic;
+}
+.work-experience-details {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.work-experience-details li {
+    list-style-type: disc;
+}
+.work-experience-languages {
+    display: flex;
+    margin: 14px 0 0;
+    padding: 0;
+    gap: 20px;
+}
+.work-experience-languages li {
+    padding: 6px 12px;
+    background-color: var(--light-blue);
+    border-radius: 10px;
+    font-size: 12px;
+    color: var(--text-blue);
+}
+/* Education */
+.education-wrapper {
+    background-color: var(--dark-blue);
+    border-left: 4px solid var(--green-accent);
+    border-radius: 10px;
+    min-height: 200px;
+    margin: 20px 0;
+    padding: 25px 30px;
+}
+.resume-education-university {
+    color: var(--green-accent);
+    font-weight: 500;
+    margin: 4px 0 4px;
+}
+.resume-education-dates {
+    color: var(--text-darker-gray);
+    font-weight: 400;
+    font-style: italic;
+}
+.resume-education-courses {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.resume-education-courses li {
+    list-style-type: disc;
+}
+
+/* Skills & Certifications */
+.resume-skills-certifications {
+    display: flex;
+    column-gap: 40px;
+}
+.resume-skills .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.resume-skills .skills-list {
+    margin: 20px 0;
+}
+.resume-skills .skills-list li {
+    color: var(--text-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #1a2332;
+    border-radius: 10px;
+    padding: 8px 16px;
+    background-color:  var(--dark-blue);
+    font-weight: 600;
+}
+.resume-skills,
+.resume-certifications {
+    width: 50%;
+}
+.resume-certifications ul {
+    margin: 20px 0 0 0;
+}
+.resume-certifications li {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.resume-interests {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.resume-interests li {
+    color: var(--green-accent);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #1a2332;
+    border-radius: 10px;
+    padding: 8px 16px;
+    background-color:  var(--dark-blue);
+    font-weight: 600;
+}
+
+/********************/
+/* Mobile Overrides */
+/********************/
+@media screen and (max-width: 800px) {
+    .resume-summary,
+    .resume-work-experience {
+        margin: 0 0 20px 0;
+        width: 100%;
+    }
+
+    .resume-intro,
+    .resume-intro-socials,
+    .resume-education {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .work-experience-languages {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .resume-skills-certifications {
+        flex-direction: column;
+    }
+    .resume-skills,
+    .resume-certifications {
+        width: 100%;
+    }
+}

@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "icon": "fa-2xl fa-brands fa-react",
+        "skill-name": "ReactJS",
+        "skill-level": "Experienced"
+    },
+    {
+        "id": 2,
+        "icon": "fa-2xl fa-brands fa-html5",
+        "skill-name": "HTML",
+        "skill-level": "Experienced"
+    },
+    {
+        "id": 3,
+        "icon": "fa-2xl fa-brands fa-css",
+        "skill-name": "CSS",
+        "skill-level": "Experienced"
+    },
+    {
+        "id": 4,
+        "icon": "fa-2xl fa-brands fa-vuejs",
+        "skill-name": "VueJS",
+        "skill-level": "Intermediate"
+    },
+    {
+        "id": 5,
+        "icon": "fa-2xl fa-brands fa-node-js",
+        "skill-name": "NodeJS",
+        "skill-level": "Intermediate"
+    },
+    {
+        "id": 6,
+        "icon": "fa-solid fa-database",
+        "skill-name": "T-SQL",
+        "skill-level": "Intermediate"
+    },
+    {
+        "id": 7,
+        "icon": "fa-2xl fa-brands fa-sass",
+        "skill-name": "SASS",
+        "skill-level": "Experienced"
+    },
+    {
+        "id": 8,
+        "icon": "fa-2xl fa-brands fa-angular",
+        "skill-name": "AngularJS",
+        "skill-level": "Intermediate"
+    },
+    {
+        "id": 9,
+        "icon": "fa-2xl fa-brands fa-figma",
+        "skill-name": "Figma",
+        "skill-level": "Intermediate"
+    }
+]

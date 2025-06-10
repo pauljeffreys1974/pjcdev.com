@@ -1,0 +1,104 @@
+@import url('./root-styles.css');
+
+.app { height: 100vh;}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--raleway-font);
+  color: var(--text-gray);
+}
+ul, li {
+  list-style-type: none;
+}
+a { text-decoration: none; }
+.header-nav a:hover { text-decoration: underline; }
+
+button:hover {
+  cursor: pointer;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Homepage Styles*/
+.homepage-container section:nth-child(even) {
+  background-color: var(--dark-blue);
+}
+.homepage-container section:nth-child(odd) {
+  background-color: var(--darkish-blue);
+}
+
+.introduction {
+  background-repeat: no-repeat;
+  padding: 20vh 10px 20vh 10vw;
+  background-image: url('/public/homepage-landing-bg.png');
+  background-position: center right;
+  text-align: left;
+  font-size: 1.5em;
+}
+.introduction h2 {
+  font-size: 2.5em;
+  font-weight: 400;
+}
+.introduction h2 span:nth-child(2) {
+  color: rgb(113, 138, 207);
+  font-weight: 500;
+}
+.introduction p {
+  margin: 15px 0;
+}
+.introduction p button {
+  margin-top: 20px;
+  padding: 16px 32px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.introduction p button:first-of-type {
+  border: 1px solid rgb(113, 138, 207);
+  background-color: transparent;
+  border-radius: 10px;
+  color: #fff;
+  margin-right: 10px;
+}
+.introduction p button:last-of-type {
+  border-width: 0;
+  background-color: var(--text-blue);
+  border-radius: 10px;
+  color: #fff;
+}
+
+.btn-bluebg,
+.btn-blueborder {
+  margin-top: 20px;
+  padding: 16px 32px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.btn-bluebg {
+  border: 1px solid var(--text-blue);
+  background-color: var(--text-blue);
+  border-radius: 10px;
+  color: #fff;
+}
+.btn-blueborder {
+  border: 1px solid rgb(113, 138, 207);
+  background-color: transparent;
+  border-radius: 10px;
+  color: #fff;
+  margin-right: 10px;
+}
+.btn-bluebg:hover {
+  border: 1px solid rgb(113, 138, 207);
+  background-color: transparent;
+  border-radius: 10px;
+  color: #fff;
+  margin-right: 10px;
+}
+.btn-blueborder:hover {
+  border: 1px solid var(--text-blue);
+  background-color: var(--text-blue);
+  border-radius: 10px;
+  color: #fff;
+}

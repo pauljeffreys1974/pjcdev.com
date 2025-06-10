@@ -1,0 +1,15 @@
+:root {
+  --selected-color: #0c1322;
+  --raleway-font: font-family: "Raleway", sans-serif;
+  --roboto-flex-font: font-family: "Roboto Flex", sans-serif;
+
+  --dark-blue: #0c1322;
+  --darkish-blue: #0d152f;
+  --light-blue: #1f2937;
+
+  --text-blue: rgb(113, 138, 207);
+  --text-gray: #ccc;
+  --text-darker-gray: #9ca3af;
+
+  --green-accent: #10b981;
+}

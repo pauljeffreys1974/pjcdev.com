@@ -1,0 +1,6 @@
+# wordle-solver
+A little something to help get playing a bit more with VueJs...
+
+Solution takes in the array of words for the game and filters them down based on an input for wrong letters, right letters/wrong location and right letters/right location and gives you a filtered down list of words that the solution could be.
+
+Done in VueJs as I need to use it at work and so wanted to play more with it after a few years in a more managerial role than as a developer...

@@ -1,0 +1,66 @@
+@import url('/src/root-styles.css');
+@import url('./nav-styles.css');
+
+/* Wrapper for desktop content (name + desktop nav + hamburger) */
+.header-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+.header-container,
+.footer-container {
+  background-color: var(--dark-blue);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+/* Header Styles */
+.header-container {
+  border-bottom: 1px solid var(--light-blue);
+  position: relative; /* Needed for absolute positioning of mobile menu */
+  z-index: 100; /* Ensure header is above content */
+}
+.header-name {
+  font-weight: 600;
+  font-size: 2em;
+}
+.header-name span:nth-child(2) {
+  font-family: var(--roboto-flex-font);
+  font-weight: 400;
+  color: rgb(113, 138, 207);
+}
+
+.header-nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+/* Styles for the active link */
+.header-nav ul li a {
+    border-bottom: 2px solid transparent;
+    font-weight: 500;
+}
+.header-nav ul li a.active {
+    color: white;
+    font-weight: 600;
+    border-bottom: 2px solid #0056b3;
+}
+
+/* Footer Styles */
+.footer-container {
+  font-size: .8em;
+  border-top: 1px solid var(--light-blue);
+  padding: 20px;
+}
+.footer-socials {
+  display: flex;
+  gap: 15px;
+}

@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "thumbnail": "project-lpg",
+        "title": "Licence Plate Game",
+        "description": "Easy to play License Plate Game. Change users, mark off the states, complete the map.",
+        "url": "https://www.playlpg.com",
+        "languages": ["React", "HTML", "CSS"]
+    },
+    {
+        "id": "2",
+        "thumbnail": "project-homes",
+        "title": "Homes.com",
+        "description": "The residential retail website I worked on with Dominion Enterprises and CoStar Group.",
+        "url": "https://www.homes.com",
+        "languages": ["VueJS","C#","HTML","SASS","CSS","WordPress"]
+    },
+    {
+        "id": "3",
+        "thumbnail": "project-wordle",
+        "title": "Wordle Solver",
+        "description": "An easy to use way to help narrow down the possible word options if struggling.",
+        "url": "https://www.pjcdev.com/wordle-solver/",
+        "languages": ["VueJS","CSS"]
+    },
+    {
+        "id": "4",
+        "thumbnail": "project-cattledog",
+        "title": "Cattle Dog Creations",
+        "description": "A small, family owned crafting LLC.",
+        "url": "https://www.cattle-dog-creations.com",
+        "languages": ["ReactJS", "HTML", "CSS"]
+    },
+    {
+        "id": "5",
+        "thumbnail": "project-alanireby",
+        "title": "Alan Ireby",
+        "description": "Website for the actor Alan Ireby. About to be overhauled.",
+        "url": "https://www.pjcdev.com/alanireby/",
+        "languages": ["HTML","CSS"]
+    }
+]
