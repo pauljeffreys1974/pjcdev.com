@@ -1,4 +1,4 @@
-# SITE IS ACTUALLY A REACT SITE AND NOT VUE SITE
+# Site is a React site and not a Vue site... The Wordle-Solver folder is Vue and probably messing with the detection :)
 
 
 # Getting Started with Create React App
