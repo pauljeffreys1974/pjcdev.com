@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+body { 
+	text-align: center;
+	margin: 10px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	color: #a19140;
+	font-size: 0.80em;
+	background-color: #000000;
+}
+
+body, td, th, p, a { font-family: Arial, Helvetica, sans-serif; }
+td, th { vertical-align: top; }
+
+a { color: #ffffff; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+div#mainLayout { 
+	width: 910px;
+	margin: 0px auto 0px auto;
+	text-align: left;
+}
+
+div#mainContentBox { border: 5px solid #363a23; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; background-color: #1c1b16; }
+
+#header { background-color: #1c1b16; border-bottom: 5px solid #363a23; margin: 0px 0px 0px 0px; padding: 15px 10px 10px 5px; text-align: right; width: 885px; font-size: 85%; }
+	#header a { color: #ffffff; text-decoration: none; }
+	#header em { color: #ffcc00; font-style: normal; }
+		#header a:hover { text-decoration: underline; }
+	#header img { position: relative; float: left; }
+#mainImage { border-bottom: 5px solid #363a23; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; vertical-align: top; }
+	#mainImage img { padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; border-width: 0px; }
+#mainContent, #galleryBox { position: relative; float: left; }
+	#mainContent { width: 630px; padding: 0px 10px 10px 10px; }
+	#mainContentWide { width: 885px; padding: 0px 10px 10px 10px; }
+		#mainContent h1, #mainContentWide h1 { padding-top: 5px; margin-top: 5px; font-size: 200%; }
+	#galleryBox { width: 230px; margin-right: 10px; padding: 60px 5px 25px 5px; background: url(../img/bg-gallery-sidebar.gif) top center no-repeat; text-align: center; }
+			#galleryBox img { padding: 4px 0px 4px 10px; }
+
+#footer { text-align: center; font-size: 75%; }
+
+table#resume {  }
+	table#resume th { text-align: left; border-bottom: 1px solid white; background-color: #000000; }
+	table#resume td { padding-bottom: 10px; }
+
+table.biography { border: 1px solid #000000; }
+	table.biography th { text-align: left; border-bottom: 1px solid white; background-color: #000000; padding: 5px 4px 5px 4px; }
+	table.biography td { padding: 4px 4px 4px 4px; }
+	
