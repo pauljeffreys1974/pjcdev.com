@@ -1,0 +1,124 @@
+string club;
+key clubrequest;
+list clublist;
+float timeout = 300.0;
+list users;
+key request;
+default
+{
+    state_entry()
+    {
+        club = llGetObjectDesc();
+        clubrequest = llHTTPRequest("https://www.pjcdev.com/aeg-checkin/clublist.txt",[],"");
+        llSensorRepeat("", "", AGENT_BY_LEGACY_NAME, 96.0, PI, 30.0);
+    }
+    sensor(integer num_detected)
+    {
+        integer i;
+        list scan;
+        for(i=0;i<num_detected;i++)
+        {
+            if(llDetectedGroup(i)) scan += llDetectedName(i);
+        }
+        string result = llList2CSV(scan);
+         string avs = (string)(llGetRegionAgentCount()/2);
+        llHTTPRequest("https://www.pjcdev.com/aeg-checkin/sensor.php?club="+club+"&result="+llEscapeURL(result)+"&avs="+avs,[],"");
+    }
+    no_sensor()
+    {
+        string avs = (string)(llGetRegionAgentCount()/2);
+        llHTTPRequest("https://www.pjcdev.com/aeg-checkin/sensor.php?club="+club+"&result="+llEscapeURL("No one found!")+"&avs="+avs,[],"");
+    }
+
+    touch_start(integer total_number)
+    {
+        if(llDetectedGroup(0))
+        {
+            integer index = llListFindList(users,[llDetectedKey(0)]);
+            if(index > -1)
+            {
+                llListenRemove(llList2Integer(users,index+3));
+                users = llDeleteSubList(users,index,index+6);
+            }
+            integer channel = 99999+(integer)llFrand(10000);
+            users += llDetectedKey(0);
+            users += llDetectedName(0);
+            users += channel;
+            users += llListen(channel,llDetectedName(0),llDetectedKey(0),"");
+            users += "NoClub";
+            users += llHTTPRequest("https://www.pjcdev.com/aeg-checkin/test-check-in.php?name="+llEscapeURL(llDetectedName(0)),[],"");
+            llSetTimerEvent(timeout);
+        }
+        else
+        {
+            llInstantMessage(llDetectedKey(0),"Please wear your group tag first!");
+        }
+    }
+    http_response(key request_id,integer status,list metadata,string body)
+    {
+        if(request_id == clubrequest) clublist = llCSV2List(body);
+        else if(request_id == request) llSetText(body,<1.0,1.0,0.0>,1);
+        else if(llListFindList(users,[request_id]) > -1)
+        {
+            integer index = llListFindList(users,[request_id]) - 5;
+            if (body == "0")
+            {                
+                llDialog(llList2Key(users,index),"Thank you for choosing the AEG Check-In System\n\nChoose a club!",clublist,llList2Integer(users,index+2));
+            }
+            else
+            {
+                llDialog(llList2Key(users,index),"It looks like you've already checked in!\n\nDo you wish to check-out?",["Check Out","Cancel"],llList2Integer(users,index+2));
+            }
+        }
+    }
+    listen(integer channel,string name, key id, string message)
+    {
+        integer index = llListFindList(users,[id]);
+        if(message == "Check Out" || message == "Cancel")
+        {
+            if(message == "Check Out")
+            {
+                llHTTPRequest("https://www.pjcdev.com/aeg-checkin/checkout.php?name="+llEscapeURL(name),[],"");
+                request = llHTTPRequest("https://www.pjcdev.com/aeg-checkin/hovertext.php?club="+club,[],"");
+            }
+            llListenRemove(llList2Integer(users,index+3));
+            users = llDeleteSubList(users,index,index+6);
+        }
+        else if(message == "DJ" || message == "Dancer")
+        {
+            llHTTPRequest("https://www.pjcdev.com/aeg-checkin/checkin.php?club="+llList2String(users,index+4)+"&role="+message+"&name="+llEscapeURL(name),[],"");
+            llDialog(id,"Thank You!\n\n You have been checked in as "+llList2String(users,index+4)+" "+message+"!",["OK"],999);
+            llListenRemove(llList2Integer(users,index+3));
+            users = llDeleteSubList(users,index,index+6);
+            request = llHTTPRequest("https://www.pjcdev.com/aeg-checkin/hovertext.php?club="+club,[],"");
+        }
+        else
+        {
+            users = llListReplaceList(users,[message],index+4,index+4);
+            llDialog(id,message + "... Got It!\n\nSelect a role:",["Dancer","DJ"],channel);
+            llSetTimerEvent(timeout);
+        }
+    }
+    timer()
+    {
+        integer listlength = llGetListLength(users);
+        if(listlength > 0)
+        {
+            integer i;
+            for(i=0;i<listlength;i+=6)
+            {
+                llInstantMessage(llList2Key(users,i),"Menu Timeout.  Please touch again.");
+            }
+            users = [];
+            state change;
+        }
+    }
+}
+
+state change
+{
+    state_entry()
+    {
+        state default;
+    }
+}
