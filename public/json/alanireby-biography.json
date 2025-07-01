@@ -1,0 +1,783 @@
+[
+    {
+        "Theater": {
+            "2013": [
+                {
+                    "title": "The Diary of Anne Frank - d. Charles Nowosielskiv",
+                    "character": "Mr Dussel"
+                },
+                {
+                    "title": "Garden O'Delight - d. Clunie MacKenzie",
+                    "character": "Onietree; Walter Kelpie"
+                },
+                {
+                    "title": "To the Cross - d. Charles Nowosielski",
+                    "character": "Simon of Cyrene"
+                }
+            ],
+            "2012": [
+                {
+                    "title": "Fear, Brown and Trembling",
+                    "character": "King; Whale - Theatre Alba"
+                },
+                {
+                    "title": "Pound on Demand",
+                    "character": "Jerry - Theatre Alba"
+                }
+            ],
+            "2011": [
+                {
+                    "title": "Child's Christmas in Wales",
+                    "character": "Narrator"
+                },
+                {
+                    "title": "Mary of the High Seas",
+                    "character": "Captain Hoseason, Duke of Marlborourgh"
+                },
+                {
+                    "title": "Smoking is Bad for You",
+                    "character": "Henpecked Man - Theatre Alba"
+                },
+                {
+                    "title": "The Cherry Orchard",
+                    "character": "Semyonov Pishtchik - Theatre Alba"
+                },
+                {
+                    "title": "The Good Doctor",
+                    "character": "Anton Chekhov - Theatre Alba"
+                }
+            ],
+            "2010": [
+                {
+                    "title": "The Quest for Excalibur",
+                    "character": "Ben Galoot/King Arthur"
+                },
+                {
+                    "title": "See You Jimmy",
+                    "character": "Father/Doctor"
+                },
+                {
+                    "title": "Forgotten Voices",
+                    "character": "Sergeant Todd"
+                }
+            ],
+            "2009": [
+                {
+                    "title": "The Fairy Queen",
+                    "character": "Ugsum Kelpie"
+                },
+                {
+                    "title": "A Man for all Seasons",
+                    "character": "Thomas Cromwell"
+                }
+            ],
+            "2008": [
+                {
+                    "title": "To The Cross",
+                    "character": "Simon of Cyrene"
+                },
+                {
+                    "title": "Unsuitable for Adults",
+                    "character": "Man"
+                },
+                {
+                    "title": "Little Red Riding Hood",
+                    "character": "The Wolf"
+                },
+                {
+                    "title": "Saint Joan",
+                    "character": "Peter Cauchon"
+                }
+            ],
+            "2007": [
+                {
+                    "title": "The Easter Play",
+                    "character": "Joseph of Arimathea"
+                },
+                {
+                    "title": "Time Gairden",
+                    "character": "Onitree/Uisge"
+                },
+                {
+                    "title": "The Crucible",
+                    "character": "Danforth"
+                }
+            ],
+            "2006": [
+                {
+                    "title": "Willie Rough",
+                    "character": "Hughie"
+                },
+                {
+                    "title": "The Quest for Excalibur",
+                    "character": "Ben Galloot/King Arthur"
+                },
+                {
+                    "title": "The Tempest",
+                    "character": "Gonzalo"
+                },
+                {
+                    "title": "The Death of Arthur",
+                    "character": "The Green Man"
+                }
+            ],
+            "2005": [
+                {
+                    "title": "The World Traveller",
+                    "character": "Jack Christie"
+                },
+                {
+                    "title": "Whisky Galore",
+                    "character": "Lt.W.A. Boggust"
+                },
+                {
+                    "title": "The Taming of the Shrew",
+                    "character": "Vicentio"
+                },
+                {
+                    "title": "The Edinburgh Easter Play",
+                    "character": "Caiaphas"
+                }
+            ],
+            "2004": [
+                {
+                    "title": "The Edinburgh Easter Play",
+                    "character": "Malachi"
+                },
+                {
+                    "title": "Once Were Free",
+                    "character": "Earl of Brunswick/Bishop"
+                },
+                {
+                    "title": "A Midsummer Night's Dream",
+                    "character": "Egeus"
+                }
+            ],
+            "2003": [
+                {
+                    "title": "Fit to Print",
+                    "character": "Pops Connor"
+                },
+                {
+                    "title": "One Flew Over the Cuckoo's Nest",
+                    "character": "Chief Bromden"
+                },
+                {
+                    "title": "Under Milk Wood",
+                    "character": "Narrator"
+                },
+                {
+                    "title": "The Life of Jesus Christ",
+                    "character": "Caspar/Soldier"
+                }
+            ],
+            "2002": [
+                {
+                    "title": "Medea",
+                    "character": "Jason"
+                },
+                {
+                    "title": "Drac Packing",
+                    "character": "Count Corpuscle"
+                }
+            ],
+            "2001": [
+                {
+                    "title": "Night of the Big Blitz",
+                    "character": "Undertaker"
+                },
+                {
+                    "title": "A Midsummer Night's Dream",
+                    "character": "Oberon"
+                },
+                {
+                    "title": "Popcorn",
+                    "character": "Bruce Delamitri"
+                },
+                {
+                    "title": "The Wallace",
+                    "character": "Heselrig/King Edward I"
+                }
+            ],
+            "2000": [
+                {
+                    "title": "Swan Song",
+                    "character": "Svetlovidov"
+                },
+                {
+                    "title": "Loot",
+                    "character": "Insp. Truscott"
+                }
+            ],
+            "1999": [
+                {
+                    "title": "In the Line of Duty",
+                    "character": "Constable Jenkins"
+                },
+                {
+                    "title": "Grapes of Wrath",
+                    "character": "Pop"
+                },
+                {
+                    "title": "Strictly Songtime",
+                    "character": "Narrator"
+                },
+                {
+                    "title": "Romeo and Juliet",
+                    "character": "Friar"
+                }
+            ],
+            "1998": [
+                {
+                    "title": "Twelfth Night",
+                    "character": "Malvolio"
+                },
+                {
+                    "title": "Journey's End",
+                    "character": "Lt. Osborne"
+                },
+                {
+                    "title": "Oklahoma",
+                    "character": "Andrew Carnes"
+                },
+                {
+                    "title": "Witness for the Prosecution",
+                    "character": "Sir Wilfred Robarts"
+                }
+            ],
+            "1997": [
+                {
+                    "title": "Twelve Angry Men",
+                    "character": "Juror 3"
+                },
+                {
+                    "title": "Hans, The Witch and the Gobbin",
+                    "character": "Gobbin"
+                },
+                {
+                    "title": "Showboat",
+                    "character": "Backwoodsman"
+                },
+                {
+                    "title": "Misbegotten Son",
+                    "character": "Paul Gachet"
+                }
+            ],
+            "1996": [
+                {
+                    "title": "A Satire of the Four Estaites",
+                    "character": "Down and Out"
+                },
+                {
+                    "title": "The Long, The Short and the Tall",
+                    "character": "Corporal Johnstone"
+                },
+                {
+                    "title": "Playboy of the Western World",
+                    "character": "Jimmy Farrell"
+                }
+            ],
+            "1995": [
+                {
+                    "title": "The King and I",
+                    "character": "Kralahome"
+                },
+                {
+                    "title": "The Dresser",
+                    "character": "'Sir'"
+                },
+                {
+                    "title": "Space Chase",
+                    "character": "Megadon the Mighty"
+                }
+            ],
+            "1994": [
+                {
+                    "title": "Lloyd George Knew My Father",
+                    "character": "Richardson"
+                },
+                {
+                    "title": "Conduct Unbecoming",
+                    "character": "Adjutant"
+                }
+            ],
+            "1993": [
+                {
+                    "title": "The Deadly Game",
+                    "character": "Prosecutor"
+                },
+                {
+                    "title": "Major Barbara",
+                    "character": "Bill Walker"
+                },
+                {
+                    "title": "Man of La Mancha",
+                    "character": "Innkeeper/Judge"
+                }
+            ],
+            "1992": [
+                {
+                    "title": "Death of a Salesman",
+                    "character": "Howard Wagner"
+                },
+                {
+                    "title": "The Importance of Being Earnest",
+                    "character": "John Worthing"
+                },
+                {
+                    "title": "Alice in Wonderland",
+                    "character": "Mad Hatter"
+                }
+            ],
+            "1991": [
+                {
+                    "title": "Mr Fothergill's Murder",
+                    "character": "Dick Taylor"
+                },
+                {
+                    "title": "The Best Little Whorehouse in Texas",
+                    "character": "Edsel Mackay"
+                }
+            ],
+            "1990": [
+                {
+                    "title": "Winnie the Pooh",
+                    "character": "Eeyore"
+                },
+                {
+                    "title": "Lord Arthur Savile's Crime",
+                    "character": "Herr Winkelkopf"
+                }
+            ],
+            "1989": [
+                {
+                    "title": "The Queen of Hearts",
+                    "character": "Racing Demon Swap"
+                },
+                {
+                    "title": "Arsenic and Old Lace",
+                    "character": "Jonathan Brewster"
+                },
+                {
+                    "title": "The Haunted Through Lounge and Recessed Dining Nook T Farndale Castle",
+                    "character": "Ffortescue-Smythe"
+                }
+            ],
+            "1988": [
+                {
+                    "title": "The Trial of St. Stephen",
+                    "character": "Saul"
+                }
+            ],
+            "1987": [
+                {
+                    "title": "The Murder of Maria Marten",
+                    "character": "William Corder"
+                }
+            ],
+            "1986": [
+                {
+                    "title": "Mr Bolfry",
+                    "character": "Cully"
+                },
+                {
+                    "title": "The Relapse",
+                    "character": "Loveless"
+                }
+            ],
+            "1985": [
+                {
+                    "title": "And This Was Odd",
+                    "character": "Morton"
+                },
+                {
+                    "title": "And So To Bed",
+                    "character": "Samuel Pepys"
+                },
+                {
+                    "title": "The Merchant of Venice",
+                    "character": "Gratiano"
+                }
+            ],
+            "1984": [
+                {
+                    "title": "The Chiltern Hundreds",
+                    "character": "Lord Pym"
+                },
+                {
+                    "title": "The Music Man",
+                    "character": "Harold Hill"
+                },
+                {
+                    "title": "The Miser",
+                    "character": "Le Fleche"
+                }
+            ],
+            "1983": [
+                {
+                    "title": "Keep in a Cool Place",
+                    "character": "Ian McLeod"
+                },
+                {
+                    "title": "The Ghost Train",
+                    "character": "Herbert Price"
+                },
+                {
+                    "title": "The Forest",
+                    "character": "Neschastlivtsev"
+                },
+                {
+                    "title": "Showboat",
+                    "character": "Backwoodsman"
+                },
+                {
+                    "title": "The Anatomist",
+                    "character": "Robert Knox"
+                }
+            ],
+            "1982": [
+                {
+                    "title": "Twelfth Night",
+                    "character": "Malvolio"
+                },
+                {
+                    "title": "Ten Little Indians",
+                    "character": "Sir Lawrence Wargrave"
+                },
+                {
+                    "title": "Two Dozen Red Roses",
+                    "character": "Bernardo"
+                }
+            ],
+            "1981": [
+                {
+                    "title": "The Royal Hunt of the Sun",
+                    "character": "Atahuallpa"
+                }
+            ],
+            "1980": [
+                {
+                    "title": "The Gazebo",
+                    "character": "The Dook"
+                },
+                {
+                    "title": "The Visit",
+                    "character": "Bodyguard"
+                }
+            ],
+            "1979": [
+                {
+                    "title": "Arsenic and Old Lace",
+                    "character": "Jonathan Brewster"
+                }
+            ],
+            "1976": [
+                {
+                    "title": "Wind in the Branches of the Sassafras",
+                    "character": "Partridge Eye/Lynx Eye"
+                },
+                {
+                    "title": "Vivat! Vivat Regina!",
+                    "character": "Robert Dudley"
+                }
+            ],
+            "1974": [
+                {
+                    "title": "Thieves' Carnival",
+                    "character": "Dupont-Dufort Senior"
+                },
+                {
+                    "title": "The Lion in Winter",
+                    "character": "Richard Lionheart"
+                }
+            ],
+            "1973": [
+                {
+                    "title": "Man of Sorrows",
+                    "character": "Roman soldier"
+                }
+            ],
+            "1972": [
+                {
+                    "title": "Lord Arthur Savile's Crime",
+                    "character": "Herr Winkelkopf"
+                },
+                {
+                    "title": "The Royal Pardon",
+                    "character": "French Policeman"
+                },
+                {
+                    "title": "The Vigil",
+                    "character": "Lucius"
+                }
+            ],
+            "1971": [
+                {
+                    "title": "Sweeny Todd the Barber",
+                    "character": "Dr Aminadab Lupin"
+                }
+            ],
+            "1970": [
+                {
+                    "title": "A Flea in Her Ear",
+                    "character": "Augustin Seraillon"
+                },
+                {
+                    "title": "The Hollow",
+                    "character": "Edward Angkatell"
+                },
+                {
+                    "title": "A Man for All Seasons",
+                    "character": "Signor Chapuys"
+                }
+            ],
+            "1969": [
+                {
+                    "title": "The Rape of the Belt",
+                    "character": "Heracles"
+                }
+            ],
+            "1968": [
+                {
+                    "title": "Festival Fever",
+                    "character": "Father"
+                }
+            ],
+            "1967": [
+                {
+                    "title": "Justice Without Revenge",
+                    "character": "Ricardo"
+                },
+                {
+                    "title": "Much Ado About Nothing",
+                    "character": "Borachio"
+                }
+            ],
+            "1964": [
+                {
+                    "title": "Gaslight",
+                    "character": "Mr Manningham"
+                }
+            ],
+            "1963": [
+                {
+                    "title": "Love's A Luxury",
+                    "character": "Jollop"
+                },
+                {
+                    "title": "Union Riots",
+                    "character": "Walter Aird"
+                }
+            ],
+            "1962": [
+                {
+                    "title": "All For Mary",
+                    "character": "Humphrey Millar"
+                },
+                {
+                    "title": "Young Wives Tale",
+                    "character": "Bruce Banning"
+                },
+                {
+                    "title": "Kind Cousin",
+                    "character": "Edward"
+                }
+            ],
+            "1961": [
+                {
+                    "title": "A Letter from the General",
+                    "character": "Captain Lee"
+                },
+                {
+                    "title": "The Spur",
+                    "character": "Hunger"
+                }
+            ]
+        },
+        "Television": [
+            {
+                "show": "The Amazing Race",
+                "company": "CBS",
+                "character": "Jekyll & Hyde",
+                "director": "Bertram von Munster"
+            },
+            {
+                "show": "The Advocates",
+                "company": "STV"
+            },
+            {
+                "show": "Taggart",
+                "company": "STV"
+            },
+            {
+                "show": "Great Expectations",
+                "company": "BBC"
+            },
+            {
+                "show": "Rebus",
+                "company": "BBC"
+            },
+            {
+                "show": "Scottish Shorts",
+                "company": "BBC"
+            }
+        ],
+        "Film": [
+            {
+                "film": "The Shrine",
+                "year": "2012"
+            },
+            {
+                "film": "The Bunker",
+                "company": "(pilot for TV serial)",
+                "year": "2012"
+            },
+            {
+                "film": "The Bruce",
+                "company": "Lamancha Productions",
+                "character": "English soldier"
+            },
+            {
+                "film": "The Dinosaur Hunters",
+                "company": "Channel 4",
+                "character": "Gassiott"
+            },
+            {
+                "film": "999",
+                "company": "BBC",
+                "character": "Playing myself"
+            },
+            {
+                "film": "Subluminal Transpassing",
+                "company": "Navel Music Video",
+                "character": "Old Man"
+            },
+            {
+                "film": "Mystery Hunters",
+                "company": "Appartment Productions",
+                "character": "Ghost figure"
+            },
+            {
+                "film": "Days that Shook the World",
+                "company": "Lion Television",
+                "character": "US Ambassador"
+            },
+            {
+                "film": "The Gospel of Thomas",
+                "company": "Das Abra/Popmorphic",
+                "character": "Peter",
+                "year": "2009"
+            }
+        ],
+        "Student-Films": [
+            {
+                "studentFilm": "500 Years of Shaving Goats",
+                "company": "Brian Devlin Films",
+                "character": "Donnie MacNab"
+            },
+            {
+                "studentFilm": "Fritz",
+                "company": "Eca Films",
+                "character": "Fritz"
+            },
+            {
+                "studentFilm": "The Seminary",
+                "company": "Sked Productions",
+                "character": "Priest"
+            },
+            {
+                "studentFilm": "Biting Ice",
+                "company": "Kristin Loeer",
+                "character": "School Teacher"
+            },
+            {
+                "studentFilm": "The Insidious Doctor Fu Manchu",
+                "company": "Konieczny & Evans",
+                "character": "Victim"
+            },
+            {
+                "studentFilm": "Last Kings of Radio",
+                "company": "Brian Devlin Films",
+                "character": "Radio Actor"
+            },
+            {
+                "studentFilm": "Metalosis Maligna",
+                "company": "Microbia",
+                "character": "Doctor"
+            },
+            {
+                "studentFilm": "Lost Voices of World War 1",
+                "company": "Prairie Films",
+                "character": "Poetry Speaker"
+            }
+        ],
+        "Promotional-Videos": [
+            {
+                "video": "Open University. Recruitment Film"
+            },
+            {
+                "video": "2000 Census Training Video"
+            },
+            {
+                "video": "2010 Census Training Video"
+            },
+            {
+                "video": "Scottish Office. Witness at Court Training Video"
+            }
+        ],
+        "RadioStation": [
+            {
+                "radioStation": "Mayfield Hospital Radio",
+                "show": "2008 Last Train to Port Donald",
+                "character": "Train Guard"
+            },
+            {
+                "radioStation": "Mayfield Hospital Radio",
+                "show": "2007 Christmas Programme"
+            },
+            {
+                "radioStation": "Mayfield Hospital Radio",
+                "show": "2006 Christmas Programme"
+            },
+            {
+                "radioStation": "Mayfield Hospital Radio",
+                "show": "2005 Christmas Programme"
+            },
+            {
+                "radioStation": "Mayfield Hospital Radio",
+                "show": "2004 Christmas Programme",
+                "character": "A Childhood Memory of Christmas"
+            }
+        ],
+        "Director": [
+            {
+                "play":"Accrington Pals",
+                "year":"2011"
+            },
+            {
+                "play":"The House of Bernada Alba",
+                "year":"2004"
+            },
+            {
+                "play":"Dancing at Lughnasa",
+                "year":"2002"
+            },
+            {
+                "play":"Agamemnon (from the Orestia)"
+            },
+            {
+                "play":"No Sex Please, We’re British"
+            },
+            {
+                "play":"The Aten",
+                "year":"1983",
+                "director": "Co-Director"
+            },
+            {
+                "play":"Man of Sorrows",
+                "year":"1980",
+                "director": "Co-Director"
+            }
+        ]
+    }
+]
